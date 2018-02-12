@@ -117,11 +117,11 @@ WSGI_APPLICATION = 'scancodeserver.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'DATABASE_NAME',
-        'USER': 'DATABASE_USER',
-        'PASSWORD': 'USER_PASSWORD',
+        'NAME': 'scancode',
+        'USER': 'scancode',
+        'PASSWORD': 'scancode',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '5432',
 
     }
 }
